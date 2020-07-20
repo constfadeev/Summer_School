@@ -1,1 +1,1 @@
-# Xsolla_Summer_School
+# Summer_School
