@@ -13,7 +13,6 @@ import pandas as pd
 import math as mt
 import datetime as dt
 
-CREDENTIALS = service_account.Credentials.from_service_account_info({***})
 
 def getFreshData(Credentials,ProjectId):
     bigquery_sql = " ".join(["SELECT id, DATE(CAST(created_at AS DATETIME)) AS created, DATE(CAST(updated_at AS DATETIME)) AS updated, status, assignee_id, channel",
